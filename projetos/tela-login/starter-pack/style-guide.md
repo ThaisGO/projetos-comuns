@@ -10,6 +10,8 @@ Considerar os seguintes tamanhos para um design responsivo
 
 ## Cores
 
+- ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f
+- Background: ![#1C1917](https://via.placeholder.com/10/1C1917?text=+) #1C1917
 - Background: #1C1917
 - Font: #F2F2F2
 - Input: #545454
