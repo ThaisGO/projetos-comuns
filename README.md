@@ -30,6 +30,6 @@ Caso sua proposta seja um desafio de algum site como 'FrontEnd Mentor' ou 'Dev C
 
 
 # Ferramentas interessantes
-[Excalidraw](https://excalidraw.com/): Excelente ferramenta para rascunhos e wireframes de telas.
-[Figma](https://www.figma.com/): Ferramenta completa para construir interface de sites e aplicativos.
-[Read.me](https://readme.so/pt): Site que facilita escrever um README de maneira intuitiva.
+- [Excalidraw](https://excalidraw.com/): Excelente ferramenta para rascunhos e wireframes de telas.
+- [Figma](https://www.figma.com/): Ferramenta completa para construir interface de sites e aplicativos.
+- [Read.me](https://readme.so/pt): Site que facilita escrever um README de maneira intuitiva.
