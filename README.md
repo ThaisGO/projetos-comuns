@@ -12,7 +12,24 @@ Se quiser contribuir com um desafio novo, crie uma pasta com um nome curto e des
 No starter-pack deve conter: pasta 'assets', pasta 'design', style-guide.md 
 No desafio deve ter um READ.me
 
+### Workflow
+Clone o projeto com o comando: 
+```bash
+git clone 
+```
+
+Crie uma branch com o mesmo nome da pasta do seu desafio. Ex:
+```bash
+git branch tela-login
+```
+Faça todas as alterações dentro dessa branch e então faça um PR com ela.
+
 
 # Desafios terceiros
 Caso sua proposta seja um desafio de algum site como 'FrontEnd Mentor' ou 'Dev Challenges' coloque o link do desafio no read.me daquele projeto. Não adicione arquivos de terceiros, esses sites geralmente já contém os proprios arquivos e diretrizes.
 
+
+# Ferramentas interessantes
+[Excalidraw](https://excalidraw.com/): Excelente ferramenta para rascunhos e wireframes de telas.
+[Figma](https://www.figma.com/): Ferramenta completa para construir interface de sites e aplicativos.
+[Read.me](https://readme.so/pt): Site que facilita escrever um README de maneira intuitiva.
