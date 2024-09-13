@@ -10,7 +10,7 @@ Crie uma pasta com o seu nick(ou nome) e copie os arquivos necessarios da pasta 
 O arquivo 'style-guide' contém instruções de core, tamanhos, fontes e tudo mais necessário sobre o layout.
 Na pasta design há imagens do layout final.
 
-![Design preview for the Login Form](./starter-pack/design/login.png)
+![Design preview for the Login Form](./1-starter-pack/design/login.png)
 
 
 ### Obrigatório
