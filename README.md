@@ -3,7 +3,7 @@ Repositório de pequenos desafios compartilhados para a pratica e estudo de HTML
 
 
 # Como utilizar
-Esse repositorio é livre para que o usuário possa criar suas proprias resoluções do desafio e encorajamos a enviá-las.
+Esse repositorio é livre para que o usuário possa criar suas proprias resoluções dos desafios e compartilhá-las.
 
 
 ### Workflow
@@ -20,14 +20,14 @@ Crie uma branch com o mesmo nome da pasta do seu desafio. Ex:
 git branch tela-login
 ```
 
-Crie uma pasta com o seu nick(ou nome), seguindo a [estrutura de pastas](#-organização-das-pastas) do projeto.
+Crie uma pasta com o seu nick(ou nome), seguindo a [estrutura de pastas](#organização-das-pastas) do projeto.
 
 Use o 'starter-pack' daquele projeto como um guia, nesta pasta contém os arquivos e instruções do desafio.
 
 Faça todas as alterações dentro da sua branch e então faça um Pull Request com ela.
 
 
-###Pull Request
+### Pull Request
 Ao criar alterações no repositório que você fez o fork, um botão 'contribute' aparecerá. Clique nele e então em 'Create pull request'
 
 Adicione um título e na mensagem descreva qual desafio está sendo enviado.
@@ -54,7 +54,7 @@ git branch tela-login
 ```
 Faça todas as alterações dentro dessa branch e então faça um Pull Request com ela.
 
-###Pull Request
+### Pull Request
 Ao criar alterações no repositório que você fez o fork, um botão 'contribute' aparecerá. Clique nele e então em 'Create pull request'
 
 Adicione um título e na mensagem descreva claramente a proposta do seu desafio.
