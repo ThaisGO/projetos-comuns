@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+section{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    flex-direction: column;    
+    margin: 50% auto;
+    background-color: #1C1917;
+    padding: 20px;
+    border-radius: 10px;
+}
+div > p, h1{
+    color: #F2F2F2;
+   
+}
+.email p, .password p {
+    padding: 5px;
+    font-weight: 500;
+    margin-left: 25px;
+    font-family:"Roboto Mono", monospace; 
+    font-size: 13px;
+    
+}
+.email input, .password input{
+    background-color: #545454;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 5px;
+    outline: none;
+}
+section > div > input{
+    margin: auto;
+    display: flex;
+    width: 200px;
+    height: 35px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family:"Roboto Mono", monospace; 
+}
+section button{
+    width: 70px;
+    height: 30px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    margin-left: 160px;
+    margin-top: 25px;
+    background-color: #15803D;
+    border: none;
+    border-radius: 5px;
+    font-family:"Roboto Mono", monospace; 
+    
+}
+section button:hover{
+    width: 70px;
+    height: 30px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 600;
+    margin-left: 160px;
+    margin-top: 25px;
+    background-color: #116932;
+    border: none;
+    border-radius: 5px;
+    font-family:"Roboto Mono", monospace; 
+    
+}
+.dontHaveAcount p{
+    font-size: 11px;
+    text-align: center;
+    margin-top:20px;
+    font-weight: 300;
+    
+    font-family:"Roboto Mono", monospace; 
+}
+.password > .passwordForget {
+    margin-left: 130px;
+    color: #22C55E;
+    font-size: 10px;
+}
+.dontHaveAcount a{
+    color: #22C55E;
+}
