@@ -20,11 +20,13 @@ Quando tiver tudo pronto faça um Pull Request do repositório que você deu for
 
 
 ### Pull Request
-Ao criar alterações no repositório que você fez o fork, um botão 'contribute' aparecerá. Clique nele e então em 'Create pull request'
+Ao criar alterações no repositório que você fez o fork, um botão **'Contribute'** aparecerá. Clique nele e então em 'Create pull request'
 
 Adicione um título e na mensagem descreva qual desafio está sendo enviado.
 
 Aguarde o feedback e acompanhe os comentários na página da sua PR.
+
+**Sempre confira se o seu repositorio está sincronizado com o original usando o botão "Sync fork"**
 
 
 # Como contribuir
