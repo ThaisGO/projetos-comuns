@@ -6,21 +6,39 @@
     box-sizing: border-box;
 }
 
+/* pensa que o body é a caixa grande e o section a caixa pequena dentro dele, certo?
+Por isso eu usei o flex para alinhar o section no centro, mas eu preciso especificar a altura e largura da caixa grande pra caixa pequena saber onde ela vai caber. */
+body {
+    height: 100vh;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
 
 section{
     display: flex;
     width: 300px;
     height: 350px;
-    flex-direction: column;    
-    margin: 50% auto;
+    flex-direction: column;
+    /* margin: 50% auto; */
+    /* se você usa o flex então pode usar essas duas propriedades abaixo para alinhar as coisas ao centro! Não precisa de margin */
+    justify-content: center;
+    align-items: center;
+    
     background-color: #1C1917;
     padding: 20px;
     border-radius: 10px;
 }
 div > p, h1{
     color: #F2F2F2;
-   
 }
+
+/* Aqui você tem que estilizar as labels */
+/* e lembra que essas classes não existem mais, você usou id's
+então seria: #iemail e #ipassword */
 .email p, .password p {
     padding: 5px;
     font-weight: 500;
@@ -29,7 +47,10 @@ div > p, h1{
     font-size: 13px;
     
 }
-.email input, .password input{
+
+/* .email input, .password input{ */
+/*  Já que as classes não existem mais é mais fácil selecionar todos os inputs do form! */
+form input {
     background-color: #545454;
     border: none;
     border-radius: 5px;
@@ -50,7 +71,10 @@ h1{
     font-size: 40px;
     font-family:"Roboto Mono", monospace; 
 }
-section button{
+
+/* Aqui eu to selecionando o input do tipo 'submit' diretamente pelo css, mas nada impede do você criar uma classe nele e estilizar! É só mais um jeito de selecionar ele no CSS */
+/* section button{ */
+section input[type='submit'] {
     width: 70px;
     height: 30px;
     padding: 5px 10px;
@@ -64,7 +88,8 @@ section button{
     font-family:"Roboto Mono", monospace; 
     
 }
-section button:hover{
+/* section button:hover{ */
+section input[type='submit']:hover {
     width: 70px;
     height: 30px;
     padding: 5px 10px;
