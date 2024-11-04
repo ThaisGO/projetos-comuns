@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet" />
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Create Account Form</title>
+</head>
+
+<body>
+    <button class="toggle">
+        <i class="feather" data-feather="sun"></i>
+    </button>
+
+    <div class="container">
+        <h1>Create Account</h1>
+        <form>
+            <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" name="username" id="username" placeholder="Alex" class="form-control" />
+                <div class="error_text"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="ex: alexwhite@gmail.com" class="form-control" />
+                <div class="error_text"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" name="password" id="password" class="form-control" />
+                <div class="error_text"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirm" class="form-label">Confirm</label>
+                <input type="password" name="confirm" id="confirm" class="form-control" />
+                <div class="error_text"></div>
+            </div>
+
+            <button>Send</button>
+
+            <div class="login">Already have an account? <a href="#">Sign in</a></div>
+        </form>
+    </div>
+
+    <div class="toaster">You're Logged!</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
